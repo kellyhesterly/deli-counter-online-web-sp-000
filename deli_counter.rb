@@ -16,7 +16,6 @@ end
 def take_a_number(katz_deli, name)
   #binding.pry
   katz_deli << name
-  katz_deli.each do |index|
-  puts "Welcome, #{name}. You are number #{index + 1} in line."
+  puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 end
 end
